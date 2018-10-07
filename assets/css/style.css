@@ -2,7 +2,7 @@
 /* killkist kreydy by the priestess of the outer church */
 html {
   font-family: 'Roboto Mono', monospace;
-  font-size: 10px;
+  font-size: 8px;
   background-color: rgba(0, 0, 0, 1);
   color: rgba(95, 255, 255, 1);
 }
@@ -16,11 +16,13 @@ h4 {
   letter-spacing: 1.1rem;
 }
 .killkistbody {
-  max-width: 100%;
-  line-height: 1.2rem;
+  line-height: 1.4rem;
 }
 .kkbody {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   padding: 20px;
+}
+.kkphrase {
+
 }
