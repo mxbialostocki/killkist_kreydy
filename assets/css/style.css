@@ -10,6 +10,9 @@ html {
   font-family: 'Roboto Mono', monospace;
   src: url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&amp;subset=cyrillic")
 }
+#fnaudio {
+  padding: 40px;
+}
 .priestesshaslanded {
   display: flex;
   justify-content: center;
@@ -39,7 +42,7 @@ section.priestesshaslanded:active {
 }
 /* //// whimsical textual fuckeries //// */
 h1 {
-  font-size: 5rem;
+  font-size: 7rem;
   color: rgba(255, 255, 255, 1);
 }
 #fuckeries {
@@ -83,3 +86,8 @@ h4 {
   text-transform: capitalize;
 }
 /* Use -webkit-animation for Safari/Chrome */
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
